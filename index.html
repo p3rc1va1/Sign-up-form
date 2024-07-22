@@ -23,21 +23,21 @@
                     <div class="couple">
                         <div class="each">
                             <label for="first_name">First name</label>
-                            <input type="text" name="first_name" id="first_name" required>
+                            <input type="text" name="first_name" id="first_name" placeholder="John" minlength="2" required>
                         </div>
                         <div class="each">
                             <label for="last_name">Last name</label>
-                            <input type="text" name="last_name" id="last_name" required>
+                            <input type="text" name="last_name" id="last_name" placeholder="Doe" minlength="2" required>
                         </div>
                     </div>
                     <div class="couple">
                         <div class="each">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" placeholder="johndoe@domain.com" required>
                         </div>
                         <div class="each">
                             <label for="tel">Phone number</label>
-                            <input type="tel" name="tel" id="tel" required>
+                            <input type="tel" name="tel" id="tel" placeholder="+1 123 456 789" minlength="6" pattern="^\+[1-9]\d{1,14}$" required>
                         </div>
                     </div>
                     <div class="couple">
@@ -50,8 +50,9 @@
                         </div>
                     </div>
                 </fieldset>
-                <button type="submit" id="submit">Create account</button>
+                <button type="submit" value="submit" id="submit">Create account</button>
             </form>
+            <script src="logic.js"></script>
         </div>
     </div>
 </body>

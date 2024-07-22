@@ -86,3 +86,11 @@ fieldset{
     margin-top: 5%;
     color: var(--cream-color);
 }
+
+input:invalid{
+    background-color: rgba(255,0,0,0.2);
+}
+
+input:valid{
+    background-color: rgba(0,128,0,0.2);
+}
