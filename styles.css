@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+:root{
+    --cream-color:  #ad9c8c;
+}
+body { 
+    margin: 0;   /* Remove body margins */
+    font-family: "Calligraffitti", cursive;
+    background-color: var(--cream-color);
+    color: #d6d6d6;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#photo{
+    height: 100%;
+    flex:2;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    height: 100%;
+    flex:3;
+    background-color: var(--cream-color);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#credit{
+    position: fixed;
+    bottom: 0;
+    left: 17%;
+    color:white;
+    font-size: 12px;
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#logoText{
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #d6d6d6;
+    position: fixed;
+    top: 21%;
+    left: 19%;
+}
+
+.each{
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 1.5rem;
+}
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+fieldset{
+    width: 100%;
+}
+
+.couple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    margin-bottom: 5%;
+}
+
+#submit{
+    margin-top: 5%;
+    color: var(--cream-color);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6892af9575.js" crossorigin="anonymous"></script>
+    <title>Sign-up</title>
+</head>
+<body>
+    <div id="main">
+        <div id="photo">
+            <img src="https://images.unsplash.com/photo-1687317587523-d3e2eb5289e4?q=80&w=3327&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%">
+            <p id="credit">Photo by <a href="https://unsplash.com/@yoyohins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yoyo Hins Itta</a> on <a href="https://unsplash.com/photos/a-train-station-with-a-train-on-the-tracks-JjvjT1MFY2U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <i class="fa-solid fa-code" style="color: #d6d6d6; position: fixed; top: 25%; left: 17%;"></i>
+            <h2 id="logoText">Baha the developer</h2>
+        </div>
+        <div id="info">
+            <h2 style="margin-left: 5%; margin-top: 10%;">Thank you for visiting my page, whilst you are here, do you mind signing up as well?</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Lets do this!</legend>
+                    <div class="couple">
+                        <div class="each">
+                            <label for="first_name">First name</label>
+                            <input type="text" name="first_name" id="first_name" required>
+                        </div>
+                        <div class="each">
+                            <label for="last_name">Last name</label>
+                            <input type="text" name="last_name" id="last_name" required>
+                        </div>
+                    </div>
+                    <div class="couple">
+                        <div class="each">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="each">
+                            <label for="tel">Phone number</label>
+                            <input type="tel" name="tel" id="tel" required>
+                        </div>
+                    </div>
+                    <div class="couple">
+                        <div class="each">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" minlength="8" required>
+
+                            <label for="confirmPassword" style="margin-top: 10%;">Confirm password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" id="submit">Create account</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
